@@ -1,6 +1,10 @@
 
 # How to Track Gumroad Sales in Notion Using Notion API and Python
 
+![A screenshot of Notion Dashboard](https://tnvmadhav.me/guides/how-to-track-gumroad-sales-in-notion-using-notion-api-and-python/img/cover_hu98e002cd453fa9f7425a9edbe546f119_12500271_1280x0_resize_q75_bgffffff_box_3.jpg)
+
+*A screenshot of Notion Dashboard with live API update*
+
 ## Introduction
 
 In this tutorial, you’ll learn how to track Gumroad[^1] sales in real-time in Notion[^2] using 🐍 Python.
@@ -39,8 +43,8 @@ So APIs are a way to do things really quickly and really efficiently.
 A way to talk to APIs is to use **a programming language**.
 
 ![A mermaid markdown diagram to represent how APIs are called](https://tnvmadhav.me/guides/how-to-track-gumroad-sales-in-notion-using-notion-api-and-python/img/API_huefd04bdd4e5bc258ff782f4372df0b61_10494358_1280x0_resize_q75_bgffffff_box_3.jpg)
-|:--:|
-|Programming languages like Javascript (or) Python can be used to talk to Apps using APIs|
+
+*Programming languages like Javascript (or) Python can be used to talk to Apps using API*
 
 Let’s understand this using an example.
 
@@ -465,8 +469,7 @@ Let’s understand the full flow here,
 Now that that you’ve gotten some idea on how APIs can be used, let’s try to combine the request and responses to do exactly what we need.
 
 ![A sequence diagram of how we plan to talk to gumroad and notion using APIs](https://tnvmadhav.me/guides/how-to-track-gumroad-sales-in-notion-using-notion-api-and-python/img/sequence_hu8d43d2b8e08806351bbb7cdaa356ff71_8367419_1280x0_resize_q75_bgffffff_box_3.jpg)
-|:--:|
-|A sequence diagram of how we plan to talk to gumroad and notion using APIs|
+*A sequence diagram of how we plan to talk to gumroad and notion using APIs*
 
 The following is the python script that I wrote ,that you can run to pull product information from gumroad save it to your notion database.
 
